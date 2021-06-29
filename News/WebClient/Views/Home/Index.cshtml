@@ -1,0 +1,82 @@
+﻿@model IEnumerable<News.Models.NewsArticle>
+@using X.PagedList.Mvc.Core;
+@using X.PagedList;
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1 style="text-align:center;">News</h1>
+
+<ul class="d-flex justify-content-start align-items-end list-inline">
+    <li class="list-inline-item">
+        <form asp-controller="Home" asp-action="Index" method="get">
+            <p>
+                Title: <input type="text" name="search" />
+                <input type="submit" value="Search" />
+            </p>
+        </form>
+    </li>
+    <li class="list-inline-item ml-auto">
+        <form asp-controller="Home" asp-action="Index" method="get">
+            <p>
+                Order by:
+                <select name="orderBy">
+                    <option></option>
+                    <option>Title</option>
+                    <option>Title Descending</option>
+                    <option>Date</option>
+                    <option>Date Descending</option>
+                </select>
+                <input type="submit" value="Order" />
+            </p>
+        </form>
+    </li>
+</ul>
+
+@foreach (var news in this.Model)
+{
+    <article class="g-mb-20 clearfix">
+        <div class="g-pos-rel px-2">
+            <h3 class="h5">
+                <a class="u-link-v5 g-color-black g-color-primary--hover" href="@news.WebUrl" target="_blank">
+                    @if (!string.IsNullOrWhiteSpace(news.WebTitle))
+                    {
+                        <span title="@news.WebTitle">@news.WebTitle</span>
+                    }
+                </a>
+            </h3>
+            <ul class="d-flex justify-content-start align-items-end list-inline g-color-gray-dark-v5 g-font-size-13 g-mb-10">
+                <li class="list-inline-item">
+                    <span class="g-font-size-13">
+                        Category: @news.SectionName
+                    </span>
+                </li>
+                <li class="list-inline-item ml-auto">
+                    <span class="g-color-gray-dark-v5">Published on: @Convert.ToDateTime(news.WebPublicationDate).ToString("ddd, dd MMM yyyy HH:mm")</span>
+                </li>
+            </ul>
+
+            <input type="button" value="Export to PDF" onclick="location.href = '@Url.Action("ExportPage", "ExportPage")?format=pdf&url=@news.WebUrl'" />
+            <input type="button" value="Export to XSL" onclick="location.href = '@Url.Action("ExportPage", "ExportPage")?format=xslx&url=@news.WebUrl'" />
+        </div>
+    </article>
+    <hr>
+}
+
+@Html.PagedListPager((IPagedList)Model, page => Url.Action("Index", new { page = page }),
+    new X.PagedList.Web.Common.PagedListRenderOptions
+    {
+        DisplayItemSliceAndTotal = false,
+        ContainerDivClasses = new[] { "navigation" },
+        LiElementClasses = new[] { "page-item" },
+        PageClasses = new[] { "page-link" },
+    })
+
+@section Scripts{
+    <script>
+        $(document).ready(function () {
+            $('ul.pagination > li.disabled > a').addClass('page-link');
+        });
+    </script>
+}

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "DpLP5soG9OUCYlB0XK0eCbFVY1vGs+V4rky+EghchBsS4jo/cd0kYW4XbhHF6MAseuO3Ph7jE5qa0OAAX8pFXw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Kris\\Desktop\\News\\News.Models\\News.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Kris\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

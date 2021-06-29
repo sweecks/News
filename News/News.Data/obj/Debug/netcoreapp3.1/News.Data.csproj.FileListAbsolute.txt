@@ -1,0 +1,15 @@
+C:\Users\Kris\Desktop\News\News.Data\bin\Debug\netcoreapp3.1\News.Data.deps.json
+C:\Users\Kris\Desktop\News\News.Data\bin\Debug\netcoreapp3.1\News.Data.runtimeconfig.json
+C:\Users\Kris\Desktop\News\News.Data\bin\Debug\netcoreapp3.1\News.Data.runtimeconfig.dev.json
+C:\Users\Kris\Desktop\News\News.Data\bin\Debug\netcoreapp3.1\News.Data.dll
+C:\Users\Kris\Desktop\News\News.Data\bin\Debug\netcoreapp3.1\News.Data.pdb
+C:\Users\Kris\Desktop\News\News.Data\bin\Debug\netcoreapp3.1\News.Models.dll
+C:\Users\Kris\Desktop\News\News.Data\bin\Debug\netcoreapp3.1\News.Models.pdb
+C:\Users\Kris\Desktop\News\News.Data\obj\Debug\netcoreapp3.1\News.Data.csprojAssemblyReference.cache
+C:\Users\Kris\Desktop\News\News.Data\obj\Debug\netcoreapp3.1\News.Data.AssemblyInfoInputs.cache
+C:\Users\Kris\Desktop\News\News.Data\obj\Debug\netcoreapp3.1\News.Data.AssemblyInfo.cs
+C:\Users\Kris\Desktop\News\News.Data\obj\Debug\netcoreapp3.1\News.Data.csproj.CoreCompileInputs.cache
+C:\Users\Kris\Desktop\News\News.Data\obj\Debug\netcoreapp3.1\News.Data.csproj.CopyComplete
+C:\Users\Kris\Desktop\News\News.Data\obj\Debug\netcoreapp3.1\News.Data.dll
+C:\Users\Kris\Desktop\News\News.Data\obj\Debug\netcoreapp3.1\News.Data.pdb
+C:\Users\Kris\Desktop\News\News.Data\obj\Debug\netcoreapp3.1\News.Data.genruntimeconfig.cache

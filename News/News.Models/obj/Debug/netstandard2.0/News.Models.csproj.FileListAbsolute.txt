@@ -1,0 +1,9 @@
+C:\Users\Kris\Desktop\News\News.Models\bin\Debug\netstandard2.0\News.Models.deps.json
+C:\Users\Kris\Desktop\News\News.Models\bin\Debug\netstandard2.0\News.Models.dll
+C:\Users\Kris\Desktop\News\News.Models\bin\Debug\netstandard2.0\News.Models.pdb
+C:\Users\Kris\Desktop\News\News.Models\obj\Debug\netstandard2.0\News.Models.csprojAssemblyReference.cache
+C:\Users\Kris\Desktop\News\News.Models\obj\Debug\netstandard2.0\News.Models.AssemblyInfoInputs.cache
+C:\Users\Kris\Desktop\News\News.Models\obj\Debug\netstandard2.0\News.Models.AssemblyInfo.cs
+C:\Users\Kris\Desktop\News\News.Models\obj\Debug\netstandard2.0\News.Models.csproj.CoreCompileInputs.cache
+C:\Users\Kris\Desktop\News\News.Models\obj\Debug\netstandard2.0\News.Models.dll
+C:\Users\Kris\Desktop\News\News.Models\obj\Debug\netstandard2.0\News.Models.pdb
